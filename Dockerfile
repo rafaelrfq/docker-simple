@@ -10,6 +10,4 @@ EXPOSE ${PORT}
 
 COPY /build/libs/crud-0.0.1-SNAPSHOT.jar docker-simple.jar
 
-WORKDIR /build/libs
-
 ENTRYPOINT ["java", "-jar", "docker-simple.jar"]
