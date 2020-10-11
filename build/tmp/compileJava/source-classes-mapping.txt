@@ -1,0 +1,10 @@
+edu/pucmm/iect/crud/repositorios/EstudianteRepository.java
+ edu.pucmm.iect.crud.repositorios.EstudianteRepository
+edu/pucmm/iect/crud/entidades/Estudiante.java
+ edu.pucmm.iect.crud.entidades.Estudiante
+edu/pucmm/iect/crud/servicios/EstudianteServices.java
+ edu.pucmm.iect.crud.servicios.EstudianteServices
+edu/pucmm/iect/crud/controladores/VistaController.java
+ edu.pucmm.iect.crud.controladores.VistaController
+edu/pucmm/iect/crud/CrudApplication.java
+ edu.pucmm.iect.crud.CrudApplication
