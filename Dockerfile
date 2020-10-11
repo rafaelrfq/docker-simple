@@ -1,4 +1,4 @@
-FROM openjdk:11
+FROM adoptopenjdk/openjdk11:alpine-jre
 
 ENV PORT=8080
 
