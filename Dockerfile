@@ -10,4 +10,4 @@ EXPOSE ${PORT}
 
 COPY /build/libs/crud-0.0.1-SNAPSHOT.jar docker-simple.jar
 
-ENTRYPOINT ["java", "-jar", "docker-simple.jar"]
+ENTRYPOINT ["java", "-jar", "docker-simple.jar", ">", "output.txt", "2>", "error.txt", "&"]
